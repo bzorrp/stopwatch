@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch or something</title>
+
+    <!-- link to css file  -->
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+<!-- creating  a container for the watch's elements -->
+<span class="stopwatch-container">
+
+    <!-- this is our display screen -->
+    <span id="display">00:00:00</span>
+
+    <!-- this is our start button
+     it has a unique id because we will
+     use that to apply
+    functionality from our js file -->
+    <div class="buttons">
+        <button id="startStop">START</button>
+
+        <!-- same goes for our reset button-->
+        <button id="reset">RESET</button>
+        
+    </div>
+</span>
+    <!-- we're gonna need a javascript file for all 
+    of this,here's how to link one -->
+ <script src="script.js"></script>
+</body>
+<!-- that's it for html -->
+</html>

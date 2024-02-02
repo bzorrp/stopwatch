@@ -1,0 +1,52 @@
+/* we created one class: stopwatch
+three IDs: display, startStop and reset */
+
+body {
+    background-color: rgb(50, 50, 50);
+}
+
+/* positioning stopwatch in the center of the page */
+.stopwatch-container {
+    text-align: center;
+}
+
+/* designing our screen  */
+#display {
+    display: block;
+    font-size: 100px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 2px solid orange;
+    margin-bottom: 20px;
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: helvetica;
+}
+
+/* styling our start and stop buttons */
+button#startStop {
+    font-family: helvetica;
+    font-weight: 700;
+    width: 100px; /* circle parameter */
+    height: 100px; /* another circle parameter */
+    border-radius: 50%; /* this actually makes it a circle */
+    border: 2px solid orange; /* orange outline */
+    background-color: transparent;
+    color: whitesmoke; /* text color */
+    font-size: 16px;
+    cursor:  pointer;
+}
+
+button#reset {
+    font-family: helvetica;
+    font-weight: 700;
+    width: 100px; /* circle parameter */
+    height: 100px; /* another circle parameter */
+    border-radius: 50%; /* this actually makes it a circle */
+    border: 2px solid orange; /* orange outline */
+    background-color: gray;
+    color: whitesmoke; /* text color */
+    font-size: 16px;
+    cursor:  pointer;
+}
